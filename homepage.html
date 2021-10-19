@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="flex-column min-100-vh">
+  <header class="hero">
+    <h1 class="app-title">Homepage</h1>
+    <p>Search the Library of Congress
+    </p>
+  </header>
+
+
+  <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-4">
+
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search the Library</h3>
+        <form id="user-form" class="card-body">
+          <label class="form-label" for="search">Search Term</label>
+          <input name="search" id="search" type="text" autofocus="true" class="form-input" />
+          <label class="form-label" for="format">Format</label>
+          <input name="format" id="format" type="text" autofocus="true" class="form-input" />
+          <button type="submit" class="btn">SEARCH!</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+<script src="assets/main.js"></script>
+
+</html>

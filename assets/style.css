@@ -1,0 +1,6 @@
+
+#results-container div {
+  margin: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 0px 5px black;
+}
